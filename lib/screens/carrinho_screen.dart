@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:loja_virtual/models/carrinho_model.dart';
 import 'package:loja_virtual/models/usuario_model.dart';
 import 'package:loja_virtual/screens/login_screen.dart';
+import 'package:loja_virtual/screens/ordem_screen.dart';
 import 'package:loja_virtual/tiles/carrinho_tile.dart';
 import 'package:loja_virtual/widgets/cep_card.dart';
 import 'package:loja_virtual/widgets/desconto_card.dart';
@@ -155,6 +156,9 @@ class CarrinhoScreen extends StatelessWidget {
                   String idOrdem = await model.finalizarOrdem();
                   if(idOrdem != null){
                     //vamos para uma tela falando que tudo deu certo
+                    Navigator.of(context).pushReplacement( //vai subistituir a tela de carrinho pela de confirmação da ordem
+                      MaterialPageRoute(builder: (context) => OrdemScreen(idOrdem))
+                    );
                   }
                 }),
 

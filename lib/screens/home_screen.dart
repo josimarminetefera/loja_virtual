@@ -49,6 +49,9 @@ class HomeScreen extends StatelessWidget {
         ),
 
         Scaffold(
+          appBar: AppBar(
+            title: Text("Meus Pedidos"),
+          ),
           body: CadastrarScreen(),
         ),
       ],
