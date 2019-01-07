@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "651845423254",
+    "firebase_url": "https://lojaflutter-servico.firebaseio.com",
+    "project_id": "lojaflutter-servico",
+    "storage_bucket": "lojaflutter-servico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651845423254:android:b5a3d6151268dd0c",
+        "android_client_info": {
+          "package_name": "com.example.lojavirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651845423254-nak3pl48bs6veqombn0vnulreud75i74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8pCutwTk9WNpdDntFvBc6LHldy_Ifco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
