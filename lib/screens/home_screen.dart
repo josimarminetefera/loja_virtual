@@ -3,6 +3,7 @@ import 'package:loja_virtual/screens/cadastrar_screen.dart';
 import 'package:loja_virtual/screens/login_screen.dart';
 import 'package:loja_virtual/tab/home_tab.dart';
 import 'package:loja_virtual/tab/categorias_tab.dart';
+import 'package:loja_virtual/tab/ordens_tab.dart';
 import 'package:loja_virtual/widgets/carrinho_button.dart';
 import 'package:loja_virtual/widgets/custom_drawer.dart';
 
@@ -51,8 +52,10 @@ class HomeScreen extends StatelessWidget {
         Scaffold(
           appBar: AppBar(
             title: Text("Meus Pedidos"),
+            centerTitle: true,
           ),
-          body: CadastrarScreen(),
+          body: OrdensTab(),
+          drawer: CustomDrawer(_pageController),
         ),
       ],
     );

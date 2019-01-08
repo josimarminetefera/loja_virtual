@@ -147,8 +147,10 @@ class CarrinhoScreen extends StatelessWidget {
                 //cartão de desconto
                 DescontoCard(),
 
+
                 //calcular cep
                 CepCard(),
+
 
                 //resumo do pedido
                 PrecoCard(()async{//função para calcular o preço

@@ -40,7 +40,9 @@ class CarrinhoProduto{
       "id":id,
       "tamanho":tamanho,
       "quantidade":quantidade,
-//      "produto": produtosDados.resumoMap()
+      //resumo do produto é importante caso o produto original seja removido, se eu mudar o preço do produto para o usuário que comprou não posso mudar o valor
+      // ai eu perco os dados por isso é importante ter um resomo do que comprei
+      "produto": produtoDados.resumoMap()
     };
   }
 

@@ -200,6 +200,8 @@ class _ProdutoScreenState extends State<ProdutoScreen> {
                         carrinhoProduto.quantidade = 1;
                         carrinhoProduto.idProduto = produtoDados.id;
                         carrinhoProduto.categoria = produtoDados.categoria;
+                        //esta parte da acesso aos dados dos produtos  para fazer o resumo
+                        carrinhoProduto.produtoDados = produtoDados;
 
                         print("ProdutoScreen Dados da categoria " + carrinhoProduto.categoria.toString());
 

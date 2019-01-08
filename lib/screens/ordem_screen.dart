@@ -10,6 +10,7 @@ class OrdemScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text("Pedido Ralizado"),
         centerTitle: true,
@@ -20,6 +21,8 @@ class OrdemScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, //todos elementos devem ficar centralizados na tela
           children: <Widget>[
+
+            //icone
             Icon(
               Icons.check,
               color: Theme.of(context).primaryColor,
