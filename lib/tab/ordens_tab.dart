@@ -37,7 +37,7 @@ class OrdensTab extends StatelessWidget {
             return ListView(
               children: snapshot.data.documents.map( //pego cada um dos documento do firebase e transformo em um ordertile
                 (doc) => OrdemTile(doc.documentID) //cada um dos documentos eu tranformo em um order tile
-              ).toList(),
+              ).toList().reversed.toList(),
             );
           }
         },
