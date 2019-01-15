@@ -34,6 +34,8 @@ dependencies:
   path_provider: ^0.4.1 # obter caminho de algum local
   url_launcher: ^4.0.2 #lancar telefone com numero da loja ou lancar o maps
 
+  flutter_launcher_icons: ^0.7.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -80,3 +82,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icones/shop.png"
+
+#flutter packages pub run flutter_launcher_icons:main
