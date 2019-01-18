@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               //onde é iniciando o meu app de verdade
               title: 'Flutter',
               theme: ThemeData(
-                  primarySwatch: Colors.yellow, //cor inicial
+                  primarySwatch: Colors.red, //cor inicial
                   primaryColor: Color.fromARGB(255, 4, 125, 141)), //Cor principal do aplicativo
               debugShowCheckedModeBanner: false, //negocio que fica no canto direito
 

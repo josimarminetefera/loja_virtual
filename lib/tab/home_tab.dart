@@ -16,8 +16,8 @@ class HomeTab extends StatelessWidget {
       decoration: BoxDecoration( //caixa xcom decoração
         gradient: LinearGradient(
           colors: [ //lista de cores
-            Color.fromARGB(255, 211, 118, 130),
-            Color.fromARGB(255, 253, 181, 168),
+            Color.fromARGB(255, 255, 165, 0),
+            Color.fromARGB(255, 255, 140, 0),
           ],
           begin: Alignment.topLeft, //direcionamento de cores inicio
           end: Alignment.bottomRight //direcionamento de cores fim
@@ -29,6 +29,7 @@ class HomeTab extends StatelessWidget {
     return Stack(
       children: <Widget>[
         _buildBodyBack(), //carrego o degrade com a cor de degrade que fiz
+
         //criar a barra que fica por cima do fundo
         CustomScrollView( //barra diferente por cima de tudo
           slivers: <Widget>[
