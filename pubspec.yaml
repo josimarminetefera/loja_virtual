@@ -20,20 +20,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   font_awesome_flutter: ^8.2.0 # icones extras
-  flutter_staggered_grid_view: ^0.2.4 # visualização em grades da tela inicial
+  flutter_staggered_grid_view: ^0.3.0 # visualização em grades da tela inicial
 
   # conexao com firebase
-  cloud_firestore: ^0.8.2
-  firebase_analytics: ^1.0.6
-  firebase_messaging: ^2.1.0
-  firebase_auth: ^0.6.6
+  cloud_firestore: ^0.11.0+2
+  firebase_auth: ^0.11.1
 
   carousel_pro: ^0.0.13 # arrastrar as imagens para o lado
-  transparent_image: 0.1.0 # imagens mais transparente e suave
+  transparent_image: ^1.0.0 # imagens mais transparente e suave
   scoped_model: ^1.0.1 # serve para fazer alterações em varios locais do aplicativo
   path_provider: ^0.4.1 # obter caminho de algum local
-  url_launcher: ^4.0.2 #lancar telefone com numero da loja ou lancar o maps
-  http: ^0.12.0
+  url_launcher: ^5.0.2 #lancar telefone com numero da loja ou lancar o maps
 
   flutter_launcher_icons: ^0.7.0
 
@@ -86,6 +83,6 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  image_path: "icones/shop.png"
+  image_path: "icones/shop.jpg"
 
 #flutter packages pub run flutter_launcher_icons:main

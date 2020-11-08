@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:mark4me/screen/searchservice.dart';
+import 'package:loja_virtual/searchservice.dart';
 
 class MyApp extends StatelessWidget {
   @override

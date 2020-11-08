@@ -97,7 +97,7 @@ class _CadastrarScreenState extends State<CadastrarScreen> {
 
                       //validação dos campos
                       validator: (texto){
-                        if(texto.isEmpty || texto.length > 6){
+                        if(texto.isEmpty || texto.length < 6){
                           return "Senha Inválido";
                         }
                       },
